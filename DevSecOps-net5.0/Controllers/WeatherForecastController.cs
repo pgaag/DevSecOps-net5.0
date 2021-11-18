@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace DevSecOps_net5._0.Controllers
 {
+    /// <summary>
+    /// The WeatherForecastController controller
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
