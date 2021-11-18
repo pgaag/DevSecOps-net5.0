@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSecOps-net5.0", "DevSecOps-net5.0\DevSecOps-net5.0.csproj", "{1E6CACEF-CB13-4C21-BDE4-7C42BEA05DBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSecOps-net5.0-Common", "DevSecOps-net5.0-Common\DevSecOps-net5.0-Common.csproj", "{1B7E77B1-2E16-427E-BF2F-A3DCAFDD8A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSecOps_net5.0-Tests", "DevSecOps_net5.0-Tests\DevSecOps_net5.0-Tests.csproj", "{CCD35EC0-1FD0-41AE-AB1F-F4307B781116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{1E6CACEF-CB13-4C21-BDE4-7C42BEA05DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E6CACEF-CB13-4C21-BDE4-7C42BEA05DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E6CACEF-CB13-4C21-BDE4-7C42BEA05DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7E77B1-2E16-427E-BF2F-A3DCAFDD8A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7E77B1-2E16-427E-BF2F-A3DCAFDD8A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7E77B1-2E16-427E-BF2F-A3DCAFDD8A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7E77B1-2E16-427E-BF2F-A3DCAFDD8A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD35EC0-1FD0-41AE-AB1F-F4307B781116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD35EC0-1FD0-41AE-AB1F-F4307B781116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD35EC0-1FD0-41AE-AB1F-F4307B781116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD35EC0-1FD0-41AE-AB1F-F4307B781116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

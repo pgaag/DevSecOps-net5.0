@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>DevSecOps_net5._0_Tests</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+        <PackageId>DevSecOps_net5.0-Tests</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Moq" Version="4.16.1" />
+      <PackageReference Include="xunit" Version="2.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DevSecOps-net5.0\DevSecOps-net5.0.csproj" />
+    </ItemGroup>
+
+</Project>
