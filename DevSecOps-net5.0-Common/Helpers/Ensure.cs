@@ -4,6 +4,7 @@ using System.Linq.Expressions;
 
 namespace DevSecOps_net5._0_Common.Helpers
 {
+    // Ensure class
     public static class Ensure
     {
         [DebuggerStepThrough]
