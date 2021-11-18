@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace DevSecOps_net5._0.Controllers
 {
+    /// <summary>
+    /// The WeatherForecastController controller
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,6 +26,10 @@ namespace DevSecOps_net5._0.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get WeatherForecast
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
