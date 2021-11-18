@@ -23,6 +23,10 @@ namespace DevSecOps_net5._0.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get WeatherForecast
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
